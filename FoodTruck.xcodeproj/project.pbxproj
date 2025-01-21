@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575F35C22D4030B700D35541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575F35C12D4030B700D35541 /* GoogleService-Info.plist */; };
+		575F35C52D40338600D35541 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 575F35C42D40338600D35541 /* FirebaseAnalytics */; };
+		575F35C72D40450900D35541 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 575F35C62D40450900D35541 /* FirebaseCrashlytics */; };
 		57A3937B2C20A88F0003F244 /* TruckDonutsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3937A2C20A88F0003F244 /* TruckDonutsCard.swift */; };
 		57A3937E2C20A9C40003F244 /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3937D2C20A9C40003F244 /* DonutView.swift */; };
 		57A393802C20AF910003F244 /* FoodTruckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3937F2C20AF910003F244 /* FoodTruckModel.swift */; };
 		57A393822C20B1910003F244 /* DonutGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A393812C20B1910003F244 /* DonutGallery.swift */; };
 		57A393842C20B2280003F244 /* DonutGalleryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A393832C20B2280003F244 /* DonutGalleryGrid.swift */; };
-		57A393902C20C9350003F244 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A3938F2C20C9350003F244 /* GoogleService-Info.plist */; };
 		57C195522C1D63B700B82CEF /* FoodTruckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C195512C1D63B700B82CEF /* FoodTruckApp.swift */; };
 		57C195542C1D63B700B82CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C195532C1D63B700B82CEF /* ContentView.swift */; };
 		57C195562C1D63B800B82CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C195552C1D63B800B82CEF /* Assets.xcassets */; };
@@ -51,12 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		575F35C12D4030B700D35541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57A3937A2C20A88F0003F244 /* TruckDonutsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckDonutsCard.swift; sourceTree = "<group>"; };
 		57A3937D2C20A9C40003F244 /* DonutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutView.swift; sourceTree = "<group>"; };
 		57A3937F2C20AF910003F244 /* FoodTruckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckModel.swift; sourceTree = "<group>"; };
 		57A393812C20B1910003F244 /* DonutGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGallery.swift; sourceTree = "<group>"; };
 		57A393832C20B2280003F244 /* DonutGalleryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGalleryGrid.swift; sourceTree = "<group>"; };
-		57A3938F2C20C9350003F244 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57C1954E2C1D63B700B82CEF /* FoodTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C195512C1D63B700B82CEF /* FoodTruckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckApp.swift; sourceTree = "<group>"; };
 		57C195532C1D63B700B82CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575F35C52D40338600D35541 /* FirebaseAnalytics in Frameworks */,
+				575F35C72D40450900D35541 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +158,7 @@
 		57C195502C1D63B700B82CEF /* FoodTruck */ = {
 			isa = PBXGroup;
 			children = (
-				57A3938F2C20C9350003F244 /* GoogleService-Info.plist */,
+				575F35C12D4030B700D35541 /* GoogleService-Info.plist */,
 				57C195822C1D6A9C00B82CEF /* Models */,
 				57C1957F2C1D665B00B82CEF /* Helpers */,
 				57C1957B2C1D64F000B82CEF /* Truck */,
@@ -244,6 +248,7 @@
 				57C1954A2C1D63B700B82CEF /* Sources */,
 				57C1954B2C1D63B700B82CEF /* Frameworks */,
 				57C1954C2C1D63B700B82CEF /* Resources */,
+				575F35C82D4045F900D35541 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -251,6 +256,8 @@
 			);
 			name = FoodTruck;
 			packageProductDependencies = (
+				575F35C42D40338600D35541 /* FirebaseAnalytics */,
+				575F35C62D40450900D35541 /* FirebaseCrashlytics */,
 			);
 			productName = FoodTruck;
 			productReference = 57C1954E2C1D63B700B82CEF /* FoodTruck.app */;
@@ -325,6 +332,7 @@
 			);
 			mainGroup = 57C195452C1D63B700B82CEF;
 			packageReferences = (
+				575F35C32D40338600D35541 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 57C1954F2C1D63B700B82CEF /* Products */;
 			projectDirPath = "";
@@ -343,8 +351,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C195592C1D63B800B82CEF /* Preview Assets.xcassets in Resources */,
-				57A393902C20C9350003F244 /* GoogleService-Info.plist in Resources */,
 				57C195562C1D63B800B82CEF /* Assets.xcassets in Resources */,
+				575F35C22D4030B700D35541 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +371,33 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		575F35C82D4045F900D35541 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}.debug.dylib",
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57C1954A2C1D63B700B82CEF /* Sources */ = {
@@ -548,6 +583,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;
 				ENABLE_PREVIEWS = YES;
@@ -564,7 +600,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adsilva.keepcoding-18.FoodTruck";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -583,6 +619,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;
 				ENABLE_PREVIEWS = YES;
@@ -599,7 +636,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adsilva.keepcoding-18.FoodTruck";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -736,6 +773,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		575F35C32D40338600D35541 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		575F35C42D40338600D35541 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575F35C32D40338600D35541 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		575F35C62D40450900D35541 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575F35C32D40338600D35541 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57C195462C1D63B700B82CEF /* Project object */;
 }

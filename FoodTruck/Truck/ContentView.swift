@@ -5,6 +5,7 @@
 //  Created by Adrián Silva on 15/6/24.
 //
 
+import FirebaseAnalytics
 import SwiftUI
 
 enum Navigation: Hashable {
@@ -53,6 +54,7 @@ struct ContentView: View {
                         DonutGallery(model: model)
                 }
             }
+            .analyticsScreen(name: "truck_screen")
         }
     }
 }
