@@ -95,6 +95,7 @@
 		57DDC7B92D418D7300CC5474 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
 		57DDC7BA2D418D7300CC5474 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		57DDC7BD2D41912700CC5474 /* WhatToTest.en-US.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WhatToTest.en-US.txt"; sourceTree = "<group>"; };
+		57DDC7BE2D41938400CC5474 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +260,7 @@
 		57DDC7AC2D418C7A00CC5474 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				57DDC7BE2D41938400CC5474 /* ci_post_xcodebuild.sh */,
 				57DDC7BB2D418D7300CC5474 /* AppIcon-Beta.appiconset */,
 				57DDC7AE2D418CE300CC5474 /* ci_pre_xcodebuild.sh */,
 			);
@@ -638,7 +640,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;
@@ -677,7 +679,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;
