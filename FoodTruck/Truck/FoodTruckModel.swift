@@ -67,7 +67,6 @@ final class FoodTruckModel {
                 ]
             )
             Crashlytics.crashlytics().log("Expected to find a favourite donut")
-            let foo = favouriteDonuts.values.first!
             return
         }
         favouriteDonuts[donut.id] = donut
