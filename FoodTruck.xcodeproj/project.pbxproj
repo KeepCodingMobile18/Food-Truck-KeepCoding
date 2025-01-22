@@ -94,6 +94,7 @@
 		57DDC7B82D418D7300CC5474 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
 		57DDC7B92D418D7300CC5474 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
 		57DDC7BA2D418D7300CC5474 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		57DDC7BD2D41912700CC5474 /* WhatToTest.en-US.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WhatToTest.en-US.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +152,7 @@
 		57C195452C1D63B700B82CEF = {
 			isa = PBXGroup;
 			children = (
+				57DDC7BC2D41910300CC5474 /* TestFlight */,
 				57DDC7AC2D418C7A00CC5474 /* ci_scripts */,
 				57C195502C1D63B700B82CEF /* FoodTruck */,
 				57C195612C1D63B800B82CEF /* FoodTruckTests */,
@@ -280,6 +282,14 @@
 				57DDC7BA2D418D7300CC5474 /* Contents.json */,
 			);
 			path = "AppIcon-Beta.appiconset";
+			sourceTree = "<group>";
+		};
+		57DDC7BC2D41910300CC5474 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC7BD2D41912700CC5474 /* WhatToTest.en-US.txt */,
+			);
+			path = TestFlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -628,7 +638,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;
@@ -667,7 +677,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"FoodTruck/Preview Content\"";
 				DEVELOPMENT_TEAM = 6SZ9MGTL76;

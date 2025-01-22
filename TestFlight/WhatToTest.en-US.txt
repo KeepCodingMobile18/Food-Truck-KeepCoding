@@ -1,0 +1,20 @@
+Test Scenarios
+
+2.1 Functional Testing
+
+    •    Basic Search:
+    •    Search for common donut names (e.g., “Chocolate,” “Glazed,” “Sprinkle”).
+    •    Search using partial terms (e.g., “Cho” for “Chocolate”).
+    •    Search with exact matches (e.g., “Boston Cream”).
+    •    Search for non-existing items (e.g., “Blueberry Muffin”).
+    •    Search by Category:
+    •    Filter results using categories (e.g., “Vegan,” “Sugar-Free,” “Classic”).
+    •    Search with Special Characters:
+    •    Test searches with symbols (e.g., “Oreo® Donut,” “Choco & Cream”).
+    •    Case Sensitivity:
+    •    Verify search results are case-insensitive (e.g., “chocolate” vs. “Chocolate”).
+    •    Empty Search:
+    •    Perform an empty search and verify the response (e.g., show all donuts or display a message).
+    •    Search Autocomplete:
+    •    Check if suggestions appear while typing.
+    •    Validate selection from the suggestion list.
