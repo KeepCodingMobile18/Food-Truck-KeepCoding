@@ -186,5 +186,4 @@ extension TruckHeader {
         .frame(height: 400, alignment: .bottom)
         .border(.green.opacity(0.5))
         .frame(width: 1200, height: 1200, alignment: .top)
-        .previewLayout(.sizeThatFits)
 }
