@@ -80,6 +80,10 @@
 		57C1958F2C1D6C0D00B82CEF /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		57C1959A2C1D781D00B82CEF /* DonutLatticeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutLatticeLayout.swift; sourceTree = "<group>"; };
 		57C1959C2C1D784C00B82CEF /* DonutLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutLayer.swift; sourceTree = "<group>"; };
+		57D55B362E15841F00D7B1A1 /* install_dependencies.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install_dependencies.sh; sourceTree = "<group>"; };
+		57D55B372E15842300D7B1A1 /* run_sonar_analysis.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_sonar_analysis.sh; sourceTree = "<group>"; };
+		57D55B382E15842600D7B1A1 /* run_swiftlint.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_swiftlint.sh; sourceTree = "<group>"; };
+		57D55B392E15843300D7B1A1 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		57DDC7AB2D41705100CC5474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		57DDC7AE2D418CE300CC5474 /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
 		57DDC7AF2D418D7300CC5474 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
@@ -260,6 +264,10 @@
 		57DDC7AC2D418C7A00CC5474 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				57D55B392E15843300D7B1A1 /* ci_post_clone.sh */,
+				57D55B382E15842600D7B1A1 /* run_swiftlint.sh */,
+				57D55B372E15842300D7B1A1 /* run_sonar_analysis.sh */,
+				57D55B362E15841F00D7B1A1 /* install_dependencies.sh */,
 				57DDC7BE2D41938400CC5474 /* ci_post_xcodebuild.sh */,
 				57DDC7BB2D418D7300CC5474 /* AppIcon-Beta.appiconset */,
 				57DDC7AE2D418CE300CC5474 /* ci_pre_xcodebuild.sh */,
